@@ -265,3 +265,51 @@ height: 500px;/*Tamaño de la imagen*/
   .tabla {
     margin: 50px 0;
   }
+
+  @media screen and (max-width: 800px) {
+    /* .contenedor {
+      width: auto;
+      max-width: 800px; */
+      .titulo {
+        font-size: 45px;
+        margin-top: 30px;
+      }
+      .title-a {
+        font-size: 18px;
+      }
+      .title-b {
+        margin: 0;
+      }
+      /* portada */
+      .portada {
+        height: auto;
+      }
+      .portada .button {
+        margin-bottom: 30px;
+        display: inline-block;
+      }
+
+      /* guitarras */
+      .guitarras {
+        text-align: center;
+      }
+      .izquierda, .derecha {
+        float: none; /* reseteamos los float utilizados arriba, para cuando llegue a los 800px, se eliminen. */
+         position: static; /*reseteamos el position. */
+      }
+
+      .guitarra li {
+         list-style: none; /*para quitar numeracionde los li */
+      }
+      .guitarra.b {
+        height: auto;
+      }
+      .contenedor-guitarra-b {
+        position: static;
+        margin: 0;
+      }
+
+      sique cap 7
+
+    }
+  }
